@@ -16,4 +16,4 @@ su contexto
 -Casteo: Convertir directamente el tipo de un valor en otro tipo
 -Objeto -------------->Clase
          Instancia
--Polimorfismo: La capacidad de que una clase represente múltiples tipos de objetos al instanciarse, y que cada implementación pueda "sobrecargar" los métodos o tributos de la clase original
+-Polimorfismo: La capacidad de que una clase represente múltiples tipos de objetos al instanciarse, y que cada implementación pueda "sobrecargar" los métodos o tributos de la clase original 
