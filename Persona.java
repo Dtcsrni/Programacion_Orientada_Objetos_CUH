@@ -25,5 +25,9 @@ public class Persona {
       this.nombre = nombre;
    }
 
+   public void trabajar(){
+   System.out.println("Trabajar");
+   }
+
 
 }
