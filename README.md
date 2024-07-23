@@ -41,14 +41,31 @@ Este repositorio contiene ejemplos y prácticas relacionadas con la programació
 - Nulo: No hay referencia a memoria.
 - Vacío: Existe una referencia a un espacio vacío en memoria.
 
-## Casteo
-- Consiste en convertir directamente el tipo de un valor en otro tipo.
+Casteo
+El casteo es la acción de convertir directamente el tipo de un valor en otro tipo. Por ejemplo, cuando transformamos un número entero en un número decimal.
 
-## Objeto, Clase e Instancia
-- Un objeto es una instancia de una clase.
-- La clase define la estructura y el comportamiento.
-- La instancia es un objeto específico creado a partir de esa clase.
+Objeto, Clase e Instancia
+Objeto: Es una instancia de una clase. Representa un elemento específico y concreto en un programa.
+Clase: Define la estructura y el comportamiento que comparten los objetos. Es como un plano o una plantilla.
+Instancia: Es un objeto específico creado a partir de una clase. Cada instancia tiene sus propios valores y estado.
+Polimorfismo
+El polimorfismo permite que una clase represente múltiples tipos de objetos al instanciarse. Algunas notas sobre polimorfismo:
 
-## Polimorfismo
-- Permite que una clase represente múltiples tipos de objetos al instanciarse.
-- Cada implementación puede "sobrecargar" los métodos o atributos de la clase original.
+Cada implementación puede “sobrecargar” los métodos o atributos de la clase original.
+Tipos de herencia:
+Herencia múltiple: Una subclase hereda de varias superclases.
+Herencia simple: Una subclase hereda de una única superclase.
+Herencia jerárquica: Varias subclases heredan de una misma superclase.
+Herencia híbrida: Combinación de múltiple y simple.
+Herencia multinivel: Una subclase hereda de otra subclase.
+Sobrecarga: Distintas implementaciones pueden aplicarse al mismo método. Por ejemplo:
+Java
+
+public void trabajar(int horas) { /* ... */ }
+public void trabajar(String horas) { /* ... */ }
+public String trabajar(String horas) { /* ... */ }
+public int trabajar(String horas) { /* ... */ }
+Código generado por IA. Revisar y usar cuidadosamente. Más información sobre preguntas frecuentes.
+Implementación y Extensión
+Implementación: Se refiere a la implementación de interfaces. Las interfaces son plantillas que definen las características de una clase y sus métodos de forma abstracta.
+Herencia simple: Una clase puede heredar de una única superclase.
