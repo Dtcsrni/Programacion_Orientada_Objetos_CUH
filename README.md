@@ -60,6 +60,6 @@ El casteo es la acción de convertir directamente el tipo de un valor en otro ti
 - Sobrecarga: Distintas implementaciones pueden aplicarse al mismo método. 
 
 ## Implementación y Extensión
-- Implementación: Se refiere a la implementación de interfaces. Las interfaces son plantillas que definen las características de una clase y sus métodos de forma abstracta.
-- Herencia simple: Una clase puede heredar de una única superclase.
+- Interfaces: Las interfaces son plantillas que definen las características de una clase y sus métodos de forma abstracta.
+
 
